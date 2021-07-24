@@ -14,12 +14,6 @@
 #define ADJ 3
 #define NUM 4
 
-#define MSE 1
-#define NAV 3
-#define MED 1
-#define FUN 1
-#define CFG 1
-
 / {
 
   behaviors {
@@ -44,7 +38,6 @@
         &kp LSHFT       &hm LCTRL Z     &kp X           &kp C           &kp V           &kp B                   &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH        &kp RSHFT       
                                                         &kp LGUI        &lt LWR BSPC    &lt RIS DEL             &lt RIS RET     &lt LWR SPACE   &kp RALT
         
-
       >;
     };
     lower {
