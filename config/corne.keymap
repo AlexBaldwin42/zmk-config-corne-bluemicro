@@ -16,9 +16,9 @@
 
 #define MSE 1
 #define NAV 3
-#define MED 4
-#define FUN 5
-#define CFG 6
+#define MED 1
+#define FUN 1
+#define CFG 1
 
 / {
 
@@ -46,7 +46,7 @@
 
       >;
     };
-    mouse_layer {
+    lower {
       bindings = <
 
         &trans          &none           &none           &none           &none           &none               &none           &none           &none           &none           &none           &trans
