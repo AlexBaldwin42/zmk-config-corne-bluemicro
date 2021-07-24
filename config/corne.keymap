@@ -74,13 +74,13 @@
                                                         &trans          &trans          &trans                  &kp K_PLAY_PAUSE   &kp K_VOL_DN    &kp K_VOL_UP
       >;
     };
-    media_layer {
+    number_layer {
       bindings = <
 
-        &trans          &none           &none           &none           &none           &none               &none           &none           &none           &none           &none           &trans
-        &trans          &none           &none           &none           &none           &none               &none           &kp RGUI        &kp RALT        &kp RCTRL       &kp RSHFT       &trans
-        &trans          &none           &none           &none           &none           &none               &none           &none           &none           &none           &none           &trans
-                                                        &none           &none           &none               &none           &none           &none
+        &trans          &trans          &trans          &trans          &trans          &to NUM                 &kp CARET       &kp N7          &kp N8          &kp N9          &kp STAR        &trans          
+        &trans          &trans          &trans          &trans          &trans          &trans                  &kp MINUS       &kp N4          &kp N5          &kp N6          &kp EQUAL       &kp DEL         
+        &trans          &trans          &trans          &trans          &trans          &trans                  &kp PLUS        &kp N1          &kp N2          &kp N3          &trans          &kp RSHFT       
+                                                        &trans          &trans          &trans                  &kp RET         &kp N0          &kp DOT         
       >;
     };
   };
