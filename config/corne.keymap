@@ -43,7 +43,7 @@
                                      &kp LGUI     &LT LWR BSPC   &LT RIS DEL        &LT RIS RET   &LT LWR SPACE &kp RALT
                         >;
                 };
-                LOWER {
+                LWR {
                         bindings = <
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
    &kp ESC    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5            &kp N6        &kp N7   &kp N8 &kp N9          &kp N0        &kp BSPC
@@ -56,7 +56,7 @@
                         >;
                 };
 
-                RAISE {
+                RIS {
                         bindings = <
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
    &kp ESC   &kp EXCL      &kp AT    &kp HASH   &kp DLLR     &kp PRCNT           &kp CARET     &kp AMPS      &kp STAR     &kp LPAR   &kp RPAR      &kp MINUS
