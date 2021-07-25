@@ -44,7 +44,7 @@
       bindings = <
 
         &kp ESC         &kp N1          &kp N2          &kp N3          &kp N4          &kp N5                  &kp N6          &kp N7          &kp N8          &kp N9          &kp N0          &kp BSPC        
-        &kp LCTRL       &kp LT          &kp GT          &kp LPAR        &kp RPAR        &kp DOT                 &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT       &trans          &kp F12         
+        &kp LCTRL       &kp LT          &kp GT          &kp LPAR        &kp RPAR        &kp DOT                 &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT       &kp F6          &kp F12         
         &kp LSHFT       &kp F1          &kp F2          &kp F3          &kp F4          &kp F5                  &kp F5          &kp F7          &kp F8          &hm LALT F9     &hm LCTRL F10   &hm LSHFT F11   
                                                         &trans          &trans          &trans                  &trans          &trans          &trans  
       >;
@@ -53,17 +53,17 @@
       bindings = <
 
         &kp ESC         &kp EXCL        &kp AT          &kp HASH        &kp DLLR        &kp PRCNT               &kp CARET       &kp AMPS        &kp STAR        &kp LPAR        &kp RPAR        &kp MINUS       
-        &kp TAB         &trans          &trans          &kp HOME        &kp END         &kp PG_UP               &kp MINUS       &kp EQUAL       &kp LBRC        &kp RBRC        &kp BSLH        &kp GRAVE       
-        &kp LSHFT       &kp LCTRL       &trans          &trans          &kp RET         &kp PG_DN               &kp UNDER       &kp PLUS        &kp LBKT        &kp RBKT        &kp PIPE        &kp TILDE       
+        &kp LCAPS       &trans          &trans          &kp HOME        &kp END         &kp PG_UP               &kp MINUS       &kp EQUAL       &kp LBRC        &kp RBRC        &kp BSLH        &kp GRAVE       
+        &kp LSHFT       &kp LCTRL       &to NUM         &trans          &kp RET         &kp PG_DN               &kp UNDER       &kp PLUS        &kp LBKT        &kp RBKT        &kp PIPE        &kp TILDE       
                                                         &trans          &trans          &trans                  &trans          &trans          &trans          
       >;
     };
     adjust_layer {
       bindings = <
 
-        &bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4            &trans          &trans          &trans          &to NUM         &trans          &kp MINUS       
+        &bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4            &trans          &trans          &trans          &trans          &trans          &kp MINUS       
         &trans          &trans          &trans          &trans          &trans          &trans                  &trans          &kp K_BACK      &kp K_FORWARD   &kp K_APP       &trans          &trans          
-        &trans          &trans          &trans          &trans          &trans          &trans                  &kp F6          &kp LCAPS       &trans          &trans          &trans          &trans          
+        &trans          &trans          &trans          &trans          &trans          &trans                  &kp trans       &kp trans       &trans          &trans          &trans          &trans          
                                                         &trans          &trans          &trans                  &kp K_PLAY_PAUSE   &kp K_VOL_DN    &kp K_VOL_UP
       >;
     };
@@ -71,8 +71,8 @@
       bindings = <
 
         &trans          &trans          &trans          &trans          &trans          &to NUM                 &kp CARET       &kp N7          &kp N8          &kp N9          &kp STAR        &trans          
-        &trans          &trans          &trans          &trans          &trans          &trans                  &kp MINUS       &kp N4          &kp N5          &kp N6          &kp EQUAL       &kp DEL         
-        &trans          &trans          &trans          &trans          &trans          &trans                  &kp PLUS        &kp N1          &kp N2          &kp N3          &trans          &kp RSHFT       
+        &trans          &trans          &kp left        &kp up          &kp down        &kp right               &kp MINUS       &kp N4          &kp N5          &kp N6          &kp EQUAL       &kp DEL         
+        &trans          &trans          &kp LSHFT       &kp F10         &kp F11         &trans                  &kp PLUS        &kp N1          &kp N2          &kp N3          &trans          &kp RSHFT       
                                                         &trans          &trans          &trans                  &kp RET         &kp N0          &kp DOT         
       >;
     };
