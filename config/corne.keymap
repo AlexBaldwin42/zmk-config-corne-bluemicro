@@ -63,7 +63,7 @@
 
         &bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4            &trans          &trans          &trans          &trans          &trans          &kp MINUS       
         &trans          &trans          &trans          &trans          &trans          &trans                  &trans          &kp K_BACK      &kp K_FORWARD   &kp K_APP       &trans          &trans          
-        &trans          &trans          &trans          &trans          &trans          &trans                  &kp trans       &kp trans       &trans          &trans          &trans          &trans          
+        &trans          &trans          &trans          &trans          &trans          &trans                  &kp trans       &trans          &trans          &trans          &trans          &trans          
                                                         &trans          &trans          &trans                  &kp K_PLAY_PAUSE   &kp K_VOL_DN    &kp K_VOL_UP
       >;
     };
@@ -71,7 +71,7 @@
       bindings = <
 
         &trans          &trans          &trans          &trans          &trans          &to NUM                 &kp CARET       &kp N7          &kp N8          &kp N9          &kp STAR        &trans          
-        &trans          &trans          &kp left        &kp up          &kp down        &kp right               &kp MINUS       &kp N4          &kp N5          &kp N6          &kp EQUAL       &kp DEL         
+        &trans          &trans          &kp LEFT        &kp UP          &kp DOWN        &kp RIGHT               &kp MINUS       &kp N4          &kp N5          &kp N6          &kp EQUAL       &kp DEL         
         &trans          &trans          &kp LSHFT       &kp F10         &kp F11         &trans                  &kp PLUS        &kp N1          &kp N2          &kp N3          &trans          &kp RSHFT       
                                                         &trans          &trans          &trans                  &kp RET         &kp N0          &kp DOT         
       >;
